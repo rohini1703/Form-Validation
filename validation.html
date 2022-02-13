@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="validation.css" defer>
+    <script src="validation.js" defer></script>
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2> Registration Form</h2>
+        </div>
+        <form class="form" id="form" name="form">
+            <div class="form-control">
+                <label> Username </label>
+                <input type="text" placeholder="Rohini11" id="username" onfocus="this.value=''" name="username">
+            
+                <img src="check_circle_black_24dp.svg" id="image1"> 
+                <img src="exclamation-circle-solid (1).svg" height="20px" id="image2">
+                <small>Error message  </small>
+            </div>
+
+            <div class="form-control">
+                <label> Age </label>
+                <input type="text" placeholder="age" id="age" onfocus="this.value=''" name="age">
+                <img src="check_circle_black_24dp.svg" id="image1">
+                <img src="exclamation-circle-solid (1).svg" height="20px" id="image2">
+
+                <small>Error message  </small>
+            </div>
+
+            <div class="form-control">
+                <label class="gender"> Gender </label>
+                <input type="radio"  name="gender" value="male" id="male" name="m">Male</input>
+                <input type="radio" name="gender" value="female" id="female"  name="f">Female</input>
+
+                <img src="check_circle_black_24dp.svg" id="image1">
+                <img src="exclamation-circle-solid (1).svg" height="20px" id="image2">
+
+                <small>Error message  </small>
+            </div>
+
+            <div class="form-control">
+                <label> Email </label>
+                <input type="text" placeholder="abc@gmail.com" id="email" onfocus="this.value=''" name="email">
+            
+                <img src="check_circle_black_24dp.svg" id="image1">
+                <img src="exclamation-circle-solid (1).svg" height="20px" id="image2">
+
+                <small>Error message  </small>
+            </div>
+
+            <div class="form-control">
+                <label> Mobile Number </label>
+                <input type="text" placeholder="8264567324" id="mobile" maxlength="10" onfocus="this.value=''" name="number">
+                <img src="check_circle_black_24dp.svg" id="image1">
+                <img src="exclamation-circle-solid (1).svg" height="20px" id="image2">
+
+                <small>Error message  </small>
+            </div>
+           
+            <div class="form-control">
+                <label> Date of Birth </label>
+                <input type="date" placeholder="dd-mm-yyyy" id="date" onfocus="this.value=''" name="dob">
+            
+            
+                <small>Error message  </small>
+            </div>
+
+            <div class="form-control">
+                <label> Country </label>
+                <select name="country" id="country">
+                    <option>Select</option>
+                    <option>India</option>
+                    <option>London</option>
+                    <option>USA</option>
+                    <option> UK</option>
+                    </select>
+            
+                <img src="check_circle_black_24dp.svg" id="image1">
+                <img src="exclamation-circle-solid (1).svg" height="20px" id="image2">
+
+                <small>Error message  </small>
+            </div>
+
+           
+
+            <div class="form-control">
+                <label> Password </label>
+                <input type="password" placeholder="Password" id="password" onfocus="this.value=''" name="password">
+            
+                <img src="check_circle_black_24dp.svg">
+                <img src="exclamation-circle-solid (1).svg" height="20px">
+
+                <small>Error message  </small>
+            </div>
+            
+            <div class="form-control">
+                <label> Confirm password </label>
+                <input type="password" placeholder="Confirm Password" id="password2" onfocus="this.value=''" name="password2">
+            
+                <img src="check_circle_black_24dp.svg">
+                <img src="exclamation-circle-solid (1).svg" height="20px">
+            
+                <small>Error message  </small>
+            </div>
+<button id="submit" >Submit</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,137 @@
+
+
+html{
+    background-image: linear-gradient(#FC5E55, #FA4083);
+    background-repeat: no-repeat;
+    height:1024px;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+
+    display: flex;
+    font-family:'Verdana', Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+.container
+{
+
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0.3);
+    width:600px;
+    max-width:100%;
+    overflow: hidden;
+}
+
+.header {
+
+background-color: #fff;
+border-bottom: 1px solid #f0f0f0;
+padding: 20px 40px;
+}
+
+.header h2{
+    margin:0;
+}
+
+.form{
+
+    padding:30px 40px;
+}
+
+.form-control {
+    margin-bottom: 10px;     
+    padding-bottom: 20px;
+    position:relative;
+}
+
+.form-control input[type=password]
+{
+  margin-bottom: 15px;     
+  /*padding-bottom: 10px;*/
+}
+.form-control label{
+
+    /*display:inline-block;*/
+    margin-bottom: 5px;
+}
+
+.form-control input{
+
+    border: 2px solid #f0f0f0;
+    border-radius:4px;
+    font-size: 13px;
+    display:block;
+    font-family: inherit;
+    padding: 5px;
+    width:100%;
+}
+
+.form-control.success input{
+
+    border-color:rgb(66, 187, 19);
+}
+
+.form-control.error input{
+    border-color: red;
+}
+
+
+
+.form-control img{
+     
+    position: absolute;
+    top:23px;
+    right:10px;
+    visibility: hidden;
+}
+
+
+.form-control.success #image1{
+
+ visibility: visible;
+
+}
+
+.form-control.error #image2{
+    
+    visibility: visible;
+}
+.form-control small{
+    
+    visibility: hidden;
+    position: absolute;
+    bottom:0;
+    left:0;
+
+}
+
+.form-control.error small{
+    color:red;
+    visibility:visible;
+}
+
+.form button{
+
+    background-color: #FC5E55;
+    border: 2px solid #FC5E55;
+    color: #fff;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: inherit;
+    height: 40px;
+   
+}
+
